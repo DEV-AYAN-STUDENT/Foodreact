@@ -50,7 +50,7 @@ function App() {
           autoComplete="off"
           placeholder="Search Food"
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Find some 🍔" />
       </form>
       <div className="recipes">
         {recipes !== [] &&

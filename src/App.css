@@ -1,29 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-* {
- 
+*{
+  background-color:#F6BB2C
 }
 
-html {
-
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color:#D1473A;
+  text-align:center;
 }
 
-.App {
-  
-}
 
-h1 {
 
-}
-
-/* .search-form {
  
 
 .alert {
-  position: absolute;
+  position: center;
+  font-family: 'Permanent Marker', cursive;
+  color:black;
   top: -3rem;
   left: 0;
-  background-color: rgb(230, 0, 0);
+  /* background-color: rgb(255, 255, 255); */
   width: calc(100% - 0.4rem);
   border-radius: 0.5rem;
   padding: 0.2rem;
@@ -39,6 +37,7 @@ h1 {
 
 .search-form input {
   font-size: 1.6rem;
+  font-family: 'Permanent Marker', cursive;
   border: none;
   border-bottom: 0.1rem solid rgb(255, 0, 0);
   margin: 0 0.5rem;
@@ -54,9 +53,9 @@ h1 {
 
 .search-form input[type="submit"] {
   width: 25%;
-  text-transform: uppercase;
-  background-color: #d1473a;
-  color: #fff;
+  
+  background-color: #FF7F4B;
+  color: rgb(0, 0, 0);
 }
 
 .recipes {
@@ -73,7 +72,7 @@ h1 {
   margin: 3rem;
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
+  background-color: #A2B63F;
   padding: 2rem;
   position: relative;
   border-radius: 0.5rem;
@@ -81,7 +80,7 @@ h1 {
 }
 
 .recipe h2 {
-  background-color: rgba(161, 161, 161, 0.7);
+  background-color: #A2B63F;
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
@@ -91,7 +90,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 400;
   
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .recipe img {
@@ -107,8 +106,8 @@ h1 {
 .recipe button {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #fff;
-  background-color: #b44040;
+  color: rgb(0, 0, 0);
+  background-color: #FF7F4B;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
@@ -116,7 +115,7 @@ h1 {
 
 .ingredient-list {
   margin-top: 1rem;
-  background-color: #f0f0f0;
+  background-color: #A2B63F;
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
@@ -133,4 +132,4 @@ h1 {
 .ingredient-weight {
   color: #b44040;
   font-size: 1.3rem;
-} */
+}
